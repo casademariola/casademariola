@@ -1,29 +1,34 @@
-CASAGRANDE WEBSITE — VERSION 1
+CASA DE MARIOLA WEBSITE — VERSION 1.2
+
+PUBLIC WEBSITE
+https://casademariola.com
+
+CONTACT
+casademariola@proton.me
 
 WHAT IS INCLUDED
-- A complete one-page website
+- Complete one-page website
 - Responsive layout for mobile, tablet and desktop
-- Your supplied photographs, resized for faster loading
+- Optimised photographs
 - Gallery lightbox
-- Simple availability and contact sections
+- Availability and direct-enquiry sections
 - No subscriptions, database, cookies or booking software
 
-VIEW IT
-Open index.html in a web browser.
-
-BEFORE PUBLISHING
-1. Open index.html in a plain-text editor.
-2. Replace:
-   your-email@example.com
-   +34 000 000 000
-3. Adjust any wording you would like.
-4. Upload the complete folder to GitHub Pages, Cloudflare Pages or another free static host.
-
-COST
-Hosting can be free. A custom domain is optional and normally the only annual cost.
+PUBLISHING
+Upload the contents of this folder to the root of the GitHub repository. Keep the images inside the images folder.
 
 FILES
 index.html   Main page and text
 styles.css  Design and mobile layout
 script.js   Mobile menu and gallery
 images/     Optimised website photographs
+favicon.svg Browser-tab icon
+CNAME       Custom-domain setting for GitHub Pages
+
+Version 1.3 updates
+-------------------
+- Header subtitle updated to “Cocentaina, Alicante, Spain”.
+- Contact email confirmed as casademariola@proton.me; no telephone number shown.
+- Added a “How to Get There” section.
+- Updated the air-conditioning note to mention that the house remains naturally cool.
+- Changed parking description to “Secure underground parking nearby”.
