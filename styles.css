@@ -122,3 +122,11 @@ dialog img{max-width:92vw;max-height:88vh;object-fit:contain}
   .language-toggle{margin-top:.2rem}
   .language-menu{position:static;margin-top:.35rem;box-shadow:none;width:100%}
 }
+
+/* Refined language selector */
+.language-label{font-size:.82rem;font-weight:600;margin-right:.18rem}
+.flag-gb{background:linear-gradient(33deg,transparent 45%,#fff 45% 55%,transparent 55%),linear-gradient(-33deg,transparent 45%,#fff 45% 55%,transparent 55%),linear-gradient(to right,transparent 42%,#fff 42% 58%,transparent 58%),linear-gradient(to bottom,transparent 38%,#fff 38% 62%,transparent 62%),linear-gradient(33deg,transparent 47%,#c8102e 47% 53%,transparent 53%),linear-gradient(-33deg,transparent 47%,#c8102e 47% 53%,transparent 53%),linear-gradient(to right,transparent 46%,#c8102e 46% 54%,transparent 54%),linear-gradient(to bottom,transparent 43%,#c8102e 43% 57%,transparent 57%),#012169}
+.language-menu a{display:flex;align-items:center;gap:.62rem}
+.language-menu a.current-language{font-weight:600;background:var(--ivory)}
+.language-menu a.current-language::after{content:'✓';margin-left:auto;color:var(--terracotta)}
+@media(max-width:850px){.language-label{display:inline}}
