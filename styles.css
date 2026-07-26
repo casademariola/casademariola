@@ -144,3 +144,5 @@ dialog img{max-width:92vw;max-height:88vh;object-fit:contain}
 .location-map figcaption{margin-top:.75rem;color:var(--muted);font-size:.92rem;text-align:center}
 @media(max-width:850px){.area-guide{grid-template-columns:1fr}.location-map{max-width:760px}}
 @media(max-width:560px){.area-guide{gap:2.5rem}.area-links{flex-direction:column;align-items:flex-start}}
+
+.footer-update{margin-top:1rem;font-size:.9rem;color:#777;text-align:center;}
